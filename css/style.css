@@ -1,0 +1,681 @@
+/*
+Author: Shahnaz Pervin
+Author-info
+*/
+/* ========index========
+1. Global CSS
+2. Header
+3. Hero
+4. Banner
+5. About
+6. Practice
+7. Lawyers
+8. Clients
+9. Publications
+10. FAQ
+11. Contact
+12. Footer */
+
+/*.1 Global css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800|Playfair+Display:400,400i,700,700i,900');
+
+.nav-link {
+    color: #111111;
+    border-bottom: 2px solid #e8bf5d;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #111111;
+    padding-top: 70px;
+}
+h1{
+    line-height: 28px;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+	 font-size: 25px;
+}
+h3{
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+}
+h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+h6{
+	line-height: 28px;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height:25px;
+    color: #111111;
+
+}
+a{
+	color: #111111;
+}
+a:hover{
+	color: #e8bf5d;
+	text-decoration: none;
+}
+section{
+	padding: 50px 0px;
+}
+.section-heading-border{
+	border-left: 2px solid #e8bf5d;
+	padding: 0px 20px;
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*.2  Header Section */
+.logo {
+    display: inline-block;
+    padding-bottom: .3125rem;
+    font-size: 25px;
+    font-weight: bold;  
+    font-family: 'Playfair Display', serif;
+}
+.logo:hover{
+   	color: #111111;
+}
+.logo span{
+	color: #e8bf5d;
+	font-size: 25px;
+	font-weight: bold; 
+}
+.navbar{
+	background-color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #111111;
+	margin-right: 25px;
+	transition: all ease .5s;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 13px;
+	transition: all ease .5s;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color:  #111111;
+    text-transform: uppercase;
+    
+}
+.nav-link {
+    color: #111111;
+    border-bottom: none;
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #111111;
+    border-bottom: 2px solid #e8bf5d;
+}  
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #111111;
+    border-bottom: 2px solid #e8bf5d;  
+}
+/* .3  Hero Section */
+.hero{
+	background: url(../img/banner.png) no-repeat;
+	background-size: 100%;
+	height: 650px;
+}
+.hero-content{
+	padding-top: 370px;
+}
+.hero-info{
+	border-left: 2px solid #e8bf5d;
+	padding: 0px 15px;
+}
+.hero-info h1{
+	color: #fff;
+	letter-spacing: 3px;
+	text-align: left;
+}
+    
+.hero-info h6{
+	color: #fff;
+	letter-spacing: 3px;
+}
+.btn-theme{
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	font-size: 12px;
+	line-height: 1.5;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out;
+	background: #e8bf5d;
+	border-radius: 50px;
+	padding: 7px 25px;
+	font-family: 'Playfair Display', serif;
+}	
+.btn-theme: focus{
+	outline: none;
+}
+.btn-theme:hover{
+	background-color: #111111;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: none;
+}
+/* .5  About Us Section */
+.about-section .section-heading-img{
+	background: url(../img/01.png)no-repeat;
+}
+.about h2{
+	line-height: 28px;
+	color: #111111; 
+	font-family: 'Playfair Display', serif;
+}
+.about h3{
+	line-height: 28px;
+	color:  #111111;
+	font-family: 'Playfair Display', serif;
+	padding-bottom: 10px;
+}
+.about h6{
+	line-height: 28px;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+}
+.about-content{
+	padding-top: 50px;
+}
+.about h4{
+	line-height: 28px;
+	color: #111111;
+	padding-top: 10px;
+	font-weight: bold;
+}
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+
+/* .6  Practice Area Section*/
+
+.practice .section-heading-img{
+	background: url(../img/02.png)no-repeat;
+	padding: 10px 0px;
+	background-size: 120px;	
+	background-position: left;
+}
+img{
+	padding-top: 20px;
+}
+.practice{
+	background-color: #111111;
+}
+.practice h2{
+	color: #fff;
+}
+.practice h6{
+	line-height: 28px;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+}
+.practice p{
+	line-height: 28px;
+	color:  #fff;
+	font-family: 'Playfair Display', serif;
+	padding-bottom: 30px;
+}
+.practice h3{
+	color: #fff;
+	padding-top: 10px;
+}
+
+/* .7  Lawyers Section*/
+
+.lawyers-section .section-heading-img{
+	background: url(../img/03.png)no-repeat;
+	padding: 40px 0px;
+}
+
+.lawyers-image h3{
+	padding-top: 25px;
+}
+
+.lawyers-image h6{
+	line-height: 28px;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+}
+.lawyers-image{
+	padding-top: 50px;
+	bottom: 20px;
+}
+
+/* .8 Our Clients Say */
+
+
+.clients-section{
+	background: url(../img/bg-2.png) no-repeat;
+	background-size: 100%;
+	height: 500px;
+	background-attachment: fixed;
+
+}
+.clients-section .section-heading-img {
+    background: url(../img/04.png) no-repeat;
+    background-size: 120px;
+    background-position: left;
+}
+.clients-section h2{
+	color: #fff;
+	 
+}
+.clients-section h4{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    width: 80%;
+}
+.clients-section h1{
+    line-height: 28px;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+    font-size: 70px;
+	text-align: right;
+	padding-top: 10px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    padding-top: 10px;
+}
+
+/* .9 Publications */
+a {
+    color: #111111;
+    font-size: 16px;
+    font-weight: bold;
+}
+.publications-section .fa {
+    color: #111111;
+}
+.publications-section .section-heading-img{
+	background: url(../img/05.png) no-repeat;
+	padding: 10px 0px;
+}
+
+.publications-section h3{
+	padding-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px; 
+}
+.publications-section p{
+	padding-top: 10px;
+	color: #111111;
+}
+.publications-section .fa{
+	color: #626262;
+}
+.publications-section img{
+	width: 100%;
+}
+.publications-content.border-bottom {
+    border-bottom: 2px solid #e8bf5d;
+}
+/* .10 FAQ */
+
+.faq .section-heading-img {
+    background: url(../img/06.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    padding: 20px 0px;
+    background-size: 120px;
+    background-position: left;
+}
+.clients-section .section-heading-img {
+    background: url(../img/04.png) no-repeat;
+    background-size: auto auto;
+    background-size: 120px;
+}
+.faq{
+	background-color: #111111;
+	background-size: 100%;
+}
+.faq h2{
+	color: #fff;
+}
+.faq p{
+	color: #111111;
+}
+.faq h5{
+	color:  #111111;
+	width: 80%;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+.faq-left .fa-minus{
+	color: #fff;
+	float: right;
+	margin-top: 12px;
+}
+.fa-plus{
+	color: #fff;
+	float: right;
+	margin-top: 12px;	
+}
+.faq-left{
+	margin-top: 50px;
+}
+.faq-left p{
+	color: #fff;
+	margin-bottom: 8px;
+	padding: 6px 0px;
+}
+.border-faq{
+	border-bottom: 2px solid #e8bf5d;
+    padding-right: 0px;
+}
+.faq-left p:hover{
+	color: #e8bf5d;
+	cursor: pointer;
+}
+.faq-right{
+	margin-top: 50px;
+}
+.faq-right{
+	background-color: #e8bf5d;
+	border-radius: 6px;
+}
+.faq-right p{
+	padding: 48px;
+    line-height: 34px;
+    font-weight: 600;
+}
+/* .11 Contact */
+
+.contact-section .section-heading-img{
+	background: url(../img/07.png) no-repeat;
+	padding: 10px 0px;
+}
+.contact-right img{
+padding-bottom: 20px;
+}
+.btn-theme{
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	font-size: 12px;
+	line-height: 1.5;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out;
+	background: #e8bf5d;
+	border-radius: 50px;
+	padding: 7px 25px;
+	font-family: 'Playfair Display', serif;
+}	
+.btn-theme:hover{
+	background-color: #111111;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: none;
+}
+
+/* .12 Footer */
+
+.footer-section .fa{
+	text-align: right;
+	color: #fff;
+	font-size: 25px;
+	
+}
+.footer-section{
+	background-color: #111111;
+	height: 90px;
+	padding-top: 30px
+}
+.footer-section h4{
+	color: #fff;
+	font-size: 20;
+}
+
+.footer-section h4 {
+    text-align: left;
+}
+.footer-section {
+
+    background-color: #111111;
+    height: 90px;
+    padding-top: 30px;
+    text-align: right;
+}
+
+/* Media Query For Mobile */
+@media screen and (min-width: 320px) and (max-width: 500px){
+.hero{
+	background: url(../img/banner.png) no-repeat;
+	background-size: 50%;
+	height: 250px;
+}
+.hero{
+	background-size: 100% 100%;
+}
+.btn-theme{
+	border-radius: 40px;
+	padding: 3px 15px;
+}
+.hero-content {
+	padding-top:60px;
+}
+.hero-info h1{
+	color: #fff;
+	letter-spacing: 3px;
+	text-align: left;
+	font-size: 35px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.about h6 {
+	width: 100%;
+}
+h1 {
+    line-height: 15px;
+    font-size: 20px;
+
+}
+.about .section-heading-image {
+	padding: 20px 0px;
+}
+.about-content {
+	padding-top: 25px;
+}
+.about-content h3, h4, p{
+	text-align: center;
+}
+.practice h6{
+	width: 100%;
+}
+.practice h3, p {
+    text-align: center;
+}
+.img-right {
+	display: block;
+	margin: 15px auto; 
+}
+img {
+     margin-left: 100px;
+     padding-bottom: 10px;
+}
+.lawyers-image h6 {
+    text-align: center;
+}
+.lawyers-image h3 {
+    text-align: center;
+}
+img {
+    margin-left: 10px;
+}
+.clients-section .section-heading-img {
+    background-size: 30%;
+}
+
+.clients-section{
+	background: url(../img/bg-2.png) no-repeat;
+	background-size: 100% 100%;
+	height:850px;
+}
+.clients-section{
+	background-size: 100% 100%;
+}
+.clients-section .section-heading-img{
+	background-size: 120px;	
+	padding-left: : 30px;
+}
+.clients-section .section-heading-img {
+    background-position: center;
+    padding-left: 40px;
+}
+
+.clients-section h1 {
+    text-align: left;
+}
+.clients-section h4 {
+    font-size: 14px;
+   
+    width: 100%;
+}
+.clients-section h2 {
+    text-align: center;
+}
+h6 {
+    text-align: center;
+}
+img {
+    margin-left: 1px;
+}
+.faq-section .section-heading-img {
+    padding: 10px 0px;
+    background-size: 120px;
+    padding-left: : 30px;
+}
+
+.faq-section .section-heading-img {
+    background-position: center;
+    padding-left: 40px;
+}
+
+.practice .section-heading-img {
+    background-position: center;
+    padding-left: 40px;
+}
+h3 {
+    text-align: center;
+}
+.row {
+    text-align: center;
+}
+.publications-section .fa {
+    padding-left: 35px;
+}
+
+.faq-section h5 {
+    text-align: justify;
+    line-height: 15px;
+}
+h6 {
+    text-align: justify;
+}
+.practice h3, p {
+    text-align: justify;
+}
+
+h6 {
+    text-align: center;
+}
+.clients-section h4 {
+    text-align: justify;
+}
+h6 {
+    text-align: justify;
+}
+.publications-section p {
+    text-align: justify;
+}
+.publications-section p {
+    text-align: justify;
+    text-align: center;
+}
+.publications-section p {
+    text-align: justify;
+}
+.faq-right p {
+    ;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: justify;
+}
+.footer-section h6 {
+    line-height: 28px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+   
+    font-size: 18px;
+}
+.clients-section h4 {
+    line-height: 30px;
+}
+.col-md-6 {
+    text-align: center;
+}
+.footer-section h4 {
+    text-align: center;
+}
+.practice h3, p {
+    text-align: justify;
+}
+.clients-section h4 {
+    line-height: 25px;
+}
+h6 {
+    text-align: center;
+}
+.publications-section h3 {
+    padding-top: 20px;
+}
+
+
+
+}
